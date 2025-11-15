@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.container {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+    text-align: center;
+    color: #00bcd4;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabs button:hover {
+    background: #0091a0;
+}
+
+/* Input Area */
+.input-area {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0091a0;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #334155;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.complete-btn { background: #22c55e; }
+.pending-btn { background: #eab308; }
+.important-btn { background: #f97316; }
+.delete-btn { background: #ef4444; }
+
+.complete-btn:hover { background: #16a34a; }
+.pending-btn:hover { background: #ca8a04; }
+.important-btn:hover { background: #ea580c; }
+.delete-btn:hover { background: #dc2626; }
