@@ -35,3 +35,21 @@ Each task has:
 ---
 
 ## 📂 Project Structure
+todo-list-app/ │ ├── index.html ├── style.css ├── script.js └── README.md
+
+---
+
+## 🌐 Live Demo  
+👉 (Add your GitHub Pages link here after hosting)  
+https://hassan-13-2006.github.io/todo-list-app/
+
+---
+
+## 📸 Screenshot  
+(You can upload a screenshot in GitHub later)
+
+---
+
+## 👤 Developed By
+*Hassan Khan*  
+BCA Student | Web Developer
