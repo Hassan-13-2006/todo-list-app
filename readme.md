@@ -44,12 +44,6 @@ todo-list-app/ │ ├── index.html ├── style.css ├── script.js 
 https://hassan-13-2006.github.io/todo-list-app/
 
 ---
-
-## 📸 Screenshot  
-(You can upload a screenshot in GitHub later)
-
----
-
 ## 👤 Developed By
 *Hassan Khan*  
 BCA Student | Web Developer
